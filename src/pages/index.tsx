@@ -24,10 +24,10 @@ const Home: React.VFC = () => {
             </h1>
             <h2 className={styles.home__title}><span>古代エジプト</span>からの挑戦状</h2>
             <div className={styles.home__badges}>
-                <Link href="https://apps.apple.com/us/app/%E8%84%B3%E3%83%88%E3%83%AC-%E3%82%A2%E3%83%8F%E4%BD%93%E9%A8%93/id1612019703">
+                <Link href="https://apple.co/3thN518">
                     <a><Image src={appleStoreBadge} width={160} height={80} /></a>
                 </Link>
-                <Link href="https://play.google.com/store/apps/details?id=com.now.village.aha_experience">
+                <Link href="https://play.google.com/store/apps/details?id=com.physi.nowvilla.challenge_from_ancient_egypt">
                     <a><Image src={playStoreBadge} width={200} height={88} /></a>
                 </Link>
             </div>
